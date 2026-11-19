@@ -166,7 +166,7 @@
     while (root.firstChild) { root.removeChild(root.firstChild); }
     var head = el('div', 'ccg-head');
     head.appendChild(el('h2', 'ccg-title', g.title));
-    if (date) { head.appendChild(el('p', 'ccg-sub', date)); }
+    // date line intentionally not shown
     head.appendChild(el('div', 'ccg-bar'));
     root.appendChild(head);
 
